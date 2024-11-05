@@ -1,0 +1,28 @@
+
+.empty-nav, .searchbar{
+    width: 232px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        gap: 100px;
+    }
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    width
+}
+
+img {
+    width: 1500px;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+}
