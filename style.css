@@ -45,8 +45,8 @@ li {
     
 }
 
-#buttonEnSavoirPlus {
-    
+#buttonEnSavoirPlus:hover {
+    background-color: gold;
 }
 
 .Parfums {
