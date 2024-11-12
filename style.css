@@ -1,38 +1,39 @@
-
 nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px 50px;
-    ul{
+
+    ul {
         display: flex;
         list-style: none;
         flex-direction: row;
-        gap: 100px;   
+        gap: 100px;
     }
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     align-items: center;
-    
+
 }
 
 h1 {
     text-align: center;
     color: rgb(202, 108, 108);
+    font-family: "Raleway", sans-serif;
 }
 
 li {
     color: aliceblue;
 }
 
-#fullWidthImage{
+#fullWidthImage {
     width: 100%;
 }
 
-#bannerEnSavoirPlus
-{
+#bannerEnSavoirPlus {
     background-image: url('https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Library-Sites-SephoraV2/default/dw675c0c46/brands/institbanner/HUGO_BOSS_202008_900_280_institutional_banner.jpg?q=75');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,18 +41,16 @@ li {
     height: 330px;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    
-    
+    align-items: center;
+
+
 }
 
 #buttonEnSavoirPlus:hover {
     background-color: gold;
 }
 
-.Parfums {
-    
-}
+.Parfums {}
 
 /* .parfum1 {
     width: 400px;
@@ -83,21 +82,28 @@ li {
 
 .parent {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 59px;
     justify-content: center;
-    
-   
+    margin: 2px;
+
+
 }
-.enfant{
-    img{
+
+.enfant {
+    img {
         border: solid 1px #00000029;
         box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
         width: 400px;
         height: 400px;
+
     }
+}
+
+.enfant:hover {
+    transform: scale(1.02)
 }
 
 a {
@@ -118,8 +124,8 @@ a {
     width: 210px;
     height: 260px;
     background-color: rgb(57, 140, 208);
-    
-    
+
+
 }
 
 .avisParfum3 {
@@ -135,38 +141,19 @@ a {
     justify-content: space-around;
     width: 100%;
 
-    
+
 }
 
-.prixParfum6 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum4 {
-    font-family: "Anton", serif;   
-}
-
-.prisParfum5 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum3 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum1 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum2 {
-    font-family: "Anton", serif;
+.prixParfum {
+    font-family: "Raleway", sans-serif;
 }
 
 #footer1 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    a{
+
+    a {
         font-family: "Poppins", sans-serif;
         color: black;
     }
@@ -174,5 +161,4 @@ a {
 
 #footerwidth {
     width: 100%;
-    
 }

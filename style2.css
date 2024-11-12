@@ -21,6 +21,8 @@ nav {
     h1 {
         text-align: center;
         color: rgb(202, 108, 108);
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
     }
 
 #heroBanner {
@@ -37,6 +39,7 @@ a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, ;
     color: wheat;
+    font-family: "Raleway", sans-serif;
 }
 
 #ParfumH2 {
@@ -50,8 +53,9 @@ a {
     flex-direction: row ;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 59px;
+    padding-top: 35px;
     justify-content: center;
+    margin: 5px;
     }
 
 .enfant{
@@ -62,30 +66,15 @@ a {
         height: 400px;
     }
 }
-
-.prixParfum6 {
-    font-family: "Anton", serif;
+.enfant:hover {
+    transform:scale(1.02)
 }
 
-.prixParfum4 {
-    font-family: "Anton", serif;   
+.prixParfum {
+    font-family: "Raleway", sans-serif;
 }
 
-.prisParfum5 {
-    font-family: "Anton", serif;
-}
 
-.prixParfum3 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum1 {
-    font-family: "Anton", serif;
-}
-
-.prixParfum2 {
-    font-family: "Anton", serif;
-}
 
 #footer1 {
     display: flex;
