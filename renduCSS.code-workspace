@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Conception_Web"
+		},
+		{
+			"path": "../../../Bureau/Portfolio/Portfolio_Web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "renduCSS"
+	}
+}
